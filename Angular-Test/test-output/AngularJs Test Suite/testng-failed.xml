@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [AngularJs Test Suite]" parallel="tests">
+  <test thread-count="1" name="AngularJs Tests(failed)" parallel="tests">
+    <classes>
+      <class name="tests.DemoInputPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBlankProjectType"/>
+          <include name="testShowHintsErrors"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- tests.DemoInputPageTests -->
+    </classes>
+  </test> <!-- AngularJs Tests(failed) -->
+</suite> <!-- Failed suite [AngularJs Test Suite] -->

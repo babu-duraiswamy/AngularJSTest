@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.DemoInputPageTests">
+        <methods>
+          <include name="testInvalidHourlyRateMin"/>
+          <include name="testValidHourlyRate"/>
+          <include name="testinvalidPhoneNumber"/>
+          <include name="testvalidPhoneNumber"/>
+          <include name="testAllowedLimitBiography"/>
+          <include name="testInvalidEmail"/>
+          <include name="testValidEmail"/>
+          <include name="testShowHintsErrors"/>
+          <include name="testExceededLimitBiography"/>
+          <include name="testValidClientEmail"/>
+          <include name="testinvalidSsn"/>
+          <include name="testInvalidHourlyRateMax"/>
+          <include name="testValidClientName"/>
+          <include name="tearDown"/>
+          <include name="testBlankProjectType"/>
+          <include name="testInvalidHourlyRateTooHigh"/>
+          <include name="testvalidSsn"/>
+          <include name="testInvalidPostalcodeErr1"/>
+          <include name="testInvalidPostalcodeErr2"/>
+          <include name="testInvalidClientEmail"/>
+          <include name="testInvalidDate"/>
+          <include name="testInvalidPostalcode"/>
+          <include name="testInvalidClientName"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- tests.DemoInputPageTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
